@@ -18,6 +18,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     position: relative;
     margin: 0;
+    max-width: 1400px;
+    padding-left: 13%;
 }
 
 .cleaner {
@@ -26,14 +28,14 @@ body {
 
 .wrapper-md{
 	margin: 0 auto;
-	width: 80%;
-	border: 1px solid red;
+	width: 83%;
+	/* border: 1px solid red; */
 	position: relative;	
 }
 
 .wrapper-lg{
 	width: 100%;
-	border: 1px solid blue;	
+	/* border: 1px solid blue; */	
 	position: relative;
 }
 
@@ -45,12 +47,12 @@ body {
 }
 .logo-cont {
 	padding-top: 1%;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	display: inline-block;
 }
 .menu-cont {
 	display: inline-block;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	float: right;	
 	margin-right: 1%;
 }
@@ -59,6 +61,7 @@ body {
 }
 .menu-cont .menu-list .menu-item{
 	display: inline-block;
+    margin-right: 10px;
 }
 .menu-cont .menu-list .menu-item a{
  	color: black;
@@ -69,18 +72,36 @@ body {
 /*======    BANNER TOP     =========*/
 /***********************************/
 .banner-top {
-    height: 700px;
+    height: 650px;
     background-image: url(../img/indexbanner-bg3.jpg);
     background-attachment: scroll;
     background-position: -180px 0px;
 }
 
+.banner-top-contact {
+    height: 650px;
+    background-image: url(../img/indexbanner-bg2.jpg);
+    background-attachment: scroll;
+    background-position: -180px 0px;
+}
+
+
 .banner-top .banner-text{
-	border: 1px solid yellow;
+	/* border: 1px solid yellow; */
 	display: inline-block;
 	margin-top: 12%;
 	margin-left: 15%;
 	color: white;
+}
+
+.banner-top-contact .banner-text{
+    text-align: center;
+    /* border: 1px solid yellow; */
+    display: inline-block;
+    margin-top: 15%;
+    margin-left: 30%;
+    color: white;
+    width: 38%;
 }
 
 
@@ -88,12 +109,12 @@ body {
 /*======    SEARCH BAR     =========*/
 /***********************************/
 .search-bar-cont {
-    height: 100px;
-    width: 1400px;
+    height: 8%;
+    width: 95%;
     margin: auto;
     padding: 15px 32px;
     position: absolute;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     top: -109px;
     left: -3px;
 }
@@ -115,11 +136,11 @@ body {
 }
 
 .search-bar-cont .search-bar-form input[type=text] {
-    border: solid 1px #BFBDBD;
+    /* border: solid 1px #BFBDBD; */
     color: #979797;
     height: 98px;
     padding-left: 10px;
-    width: 90%;
+    width: 85%;
     /* width: calc(100% -200px); */
     font-family: inherit;
     font-size: 20px;
@@ -136,7 +157,13 @@ body {
 .services-cont .service-item {
     padding: 2px 2px;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+
+.services-cont .service-item img{
+   
 }
 
 .services-cont .service-item h2 {
@@ -144,8 +171,9 @@ body {
 }
 
 .services-title-cont {
-	border: 1px solid blue;
-	text-align: center;
+	/* border: 1px solid blue; */
+    text-align: center;
+
 }
 
 /*************************************/
@@ -155,40 +183,41 @@ body {
 	z-index: 10;
 }
 .products-cont {
-   border: 1px solid red;  
+   /* border: 1px solid red; */  
 }
 
 .products-cont .products-left-col {
 	margin-top: 3%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: inline-block;
-    float: left;    
+    float: left;  
+    width: 36%;  
 }
 .products-cont .products-left-col .product {
-   border: 1px solid black;
-   height: 150px;
+   /* border: 1px solid black; */
+   height: 101px;
 }
 .products-cont .products-left-col .product .title-cont {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: inline-block;
     position: relative;
     left: 70%;
-    height: 37%;
+    height: 35%;
 }
 
 .products-cont .products-left-col .product .title-cont img{
-    border: 1px solid violet; 
-   /*  position: relative;
-   top:18px; */
+    /* border: 1px solid violet;  */
+    width: 38%;
 
 }
 .products-cont .products-left-col .product .title-cont h1{
     display: inline-block;
     float: left;
+    width: 58%;
 }
 
 .products-cont .products-left-col .product p{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 32%;
     width: 88%;
     text-align: right;
@@ -196,36 +225,38 @@ body {
     top: -15px;
 }
 
-.product-img-cont {
-	
-	margin: 0 5%;	
-	border: 1px solid green;
+.product-img-cont {	
+	margin: 0 3%;	
+	/* border: 1px solid green; */
 	display: inline-block;
+    width: 20%;
 }
 
-.product-img-cont img {
-	
-    content: url(../img/iphone2.png);
+.product-img-cont img {	
+/*      content: url(../img/iphone2.png);
+     */    width: 100%;
+    height: 100%;
 }
 
 .products-cont .products-right-col {
 	margin-top: 3%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: inline-block;
     float: right;
+    width: 36%;
 }
 .products-cont .products-right-col .product {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     position: relative;
-    height: 150px;
+    height: 101px;
 }
 
 .products-cont .products-right-col .product .title-cont {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: inline-block;
     position: relative;
     left: 0;
-    height: 37%;
+    height: 28%;
 }
 
 .products-cont .products-right-col .product .title-cont h1{
@@ -234,12 +265,13 @@ body {
 }
 
 .products-cont .products-right-col .product .title-cont img{
-    border: 1px solid red;  
+    /* border: 1px solid red;  */ 
+    width: 38%;
 }
 
 .products-cont .products-right-col .product  p {
-    border: 1px solid blue;
-     height: 32%;
+    /* border: 1px solid blue; */
+    height: 32%;
     width: 88%;
     text-align: left;
     position: relative;
@@ -253,9 +285,14 @@ body {
 .banner-bottom {
 	z-index: -10;
 	/*text-align: center;*/	
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-image: url(../img/pricing-bg.jpg);
     background-repeat: no-repeat;	
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: 79%;
     height: 550px;
     width: 100%;
     float: left;
@@ -264,8 +301,7 @@ body {
 .banner-bottom .banner-top-text {
 	margin: 10% 35%;
 	text-align: center;
-
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	display: inline-block;
 }
 
@@ -276,7 +312,7 @@ body {
 	float: left;
     top: -147px;
     margin: 0 10%;
-	border: 2px solid green;	
+	/* border: 2px solid green; */	
 }
 
 .pricings-cont .combo-cont {
@@ -284,7 +320,7 @@ body {
 	padding-bottom: 6%;
     width: 20%;
     text-align: center;
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
     display: inline-block;
 }
 
@@ -300,7 +336,7 @@ body {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 
 .pricings-cont .combo-cont h2 {
@@ -333,7 +369,7 @@ body {
 }
 .my-footer .menu-cont  {
 	margin-right: 15%;
-	width: 12%;
+	width: 14%;
 }
 .my-footer .menu-cont .menu-list .menu-item a{
  	color: white;
@@ -341,4 +377,57 @@ body {
 }
 .my-footer .menu-cont .menu-list li:first-child{
 	margin-right: 2%;
+}
+
+
+/*************************************/
+/*======   CONTACT-FORM     =========*/
+/************************************/
+
+.contact-form-cont {
+    text-align: center;
+}
+
+.contact-form-cont .form-header {}
+
+.contact-form-cont .form-content {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.contact-form-cont .form-content .form-col1 {
+    display: inline-block;
+    width: 40%;
+}
+
+.contact-form-cont .form-content .form-col2 {
+    display: inline-block;
+    width: 50%;
+    height: 190px;
+    float: right;
+}
+
+.contact-form-cont .form-content .form-col1 input[type=text] {
+    border: solid 1px #BFBDBD;
+    color: #979797;
+    height: 48px;
+    padding-left: 10px;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.contact-form-cont .form-content .form-col2 textarea {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-form-cont .form-content .form-btn {
+    background-color: #00aef3;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
 }
