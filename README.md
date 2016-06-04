@@ -1,8 +1,8 @@
-#Portfolio Publico (Sitio Web Demo)
-## Sitio Web:
+#EcmaMonkey's public repository
+## Website made during my course "Web Design" in <a href="https://www.coderhouse.com/" targe="-blank">Coderhouse</a>
 
-**Notas:**
-- Hecho con html
-- Semantica
-- css3
-- fluido, no responsive
+**Made with:**
+- Html5.
+- Css3.
+- Fluid.
+- Not reponsive.
